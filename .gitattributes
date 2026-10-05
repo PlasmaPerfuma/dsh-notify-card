@@ -1,0 +1,6 @@
+# Keep line endings stable across machines; the helper script is executed by
+# Windows PowerShell and must not be rewritten unexpectedly.
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.png binary
