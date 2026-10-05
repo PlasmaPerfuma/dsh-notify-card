@@ -1,0 +1,46 @@
+{
+  "name": "dsh-notify-card",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "DeepSeek Harness approval cards in a standalone window: pops when you are away from DSH, hands back to DSH's own card when you return, follows DSH's theme.",
+  "license": "MIT",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "notifications",
+    "approval",
+    "windows",
+    "wpf"
+  ],
+  "engines": {
+    "node": ">=22.19.0",
+    "dsh": ">=0.1.5-rc.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "native",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

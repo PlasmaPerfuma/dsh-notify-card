@@ -1,0 +1,9 @@
+# dependencies
+node_modules/
+
+# local diagnostics toggle (presence of this file turns on notify-card.log)
+.debug
+*.log
+
+# packaging leftovers
+*.tgz
