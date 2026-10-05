@@ -57,6 +57,9 @@ dsh plugin --profile desktop add link:C:\path\to\dsh-notify-card
 
 **主题不需要在这里设置**——它自动跟随 DSH 的外观设置（DSH 的设置界面里选的那个）。
 
+> **当前版本没有设置界面。** 上游原本带一个设置页，但它的实现用相对路径直接请求宿主的 HTTP 路由，在桌面壳（`dsh-app://`）下打不到宿主，只会显示"连接中断"。与其发布一个坏掉的页面，这一版先不挂载它（`package.json` 里没有 `dsh.client` 字段即为此意），代码保留在 `lib/client.js`，待改造成官方客户端接口后再启用。
+
+
 ## 与上游的关系
 
 本项目是 [dsh-notify-zeta](https://github.com/zeta987/dsh-notify-zeta)（作者 zeta987）的独立分支，遵循 MIT 许可。感谢原作者提供了可用的 Windows 原生卡片基础。
