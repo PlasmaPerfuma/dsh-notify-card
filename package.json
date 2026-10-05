@@ -5,16 +5,16 @@
   "description": "DeepSeek Harness approval cards in a standalone window: pops when you are away from DSH, hands back to DSH's own card when you return, follows DSH's theme.",
   "license": "MIT",
   "author": {
-    "name": "plasmaperfuma",
-    "url": "https://github.com/plasmaperfuma"
+    "name": "PlasmaPerfuma",
+    "url": "https://github.com/PlasmaPerfuma"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plasmaperfuma/dsh-notify-card.git"
+    "url": "git+https://github.com/PlasmaPerfuma/dsh-notify-card.git"
   },
-  "homepage": "https://github.com/plasmaperfuma/dsh-notify-card#readme",
+  "homepage": "https://github.com/PlasmaPerfuma/dsh-notify-card#readme",
   "bugs": {
-    "url": "https://github.com/plasmaperfuma/dsh-notify-card/issues"
+    "url": "https://github.com/PlasmaPerfuma/dsh-notify-card/issues"
   },
   "keywords": [
     "dsh-plugin",
